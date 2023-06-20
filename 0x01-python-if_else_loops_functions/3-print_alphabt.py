@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
-for i in range(97, 123):
-    if i == 101 or i == 113:
-        pass
+for letter in "abcdefghijklmnopqrstuvwxyz":
+    if (letter == "e" or letter == "q"):
+        continue
     else:
-        print("{}".format(chr(i)), end="")
+        print("{}".format(letter), end="")
