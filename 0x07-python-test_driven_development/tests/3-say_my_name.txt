@@ -21,21 +21,21 @@ Check for function documentation:
 	True
 
 Test case - both parameters are strings:
-	>>> say_my_name("Alex", "Jarabi")
-	My name is Alex Jarabi
+	>>> say_my_name("Dickens", "Onyando")
+	My name is Dickens Onyando
 
 Test case - only one string parameter provided:
-        >>> say_my_name("Alex")
-        My name is Alex 
+        >>> say_my_name("Dickens")
+        My name is Dickens 
 
 Test case - first_name not string, last_name string:
-	>>> say_my_name(27, "Jarabi")
+	>>> say_my_name(27, "Onyando")
 	Traceback (most recent call last):
 		...
 	TypeError: first_name must be a string
 
 Test case - first_name is  string, last_name not string:
-        >>> say_my_name("Alex", 34)
+        >>> say_my_name("Dickens", 34)
         Traceback (most recent call last):
                 ...
         TypeError: last_name must be a string
